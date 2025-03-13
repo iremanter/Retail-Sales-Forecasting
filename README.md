@@ -7,15 +7,26 @@ To analyze the correlation between independent variables and the target variable
 
 **Exploratory Data Analysis (EDA):**
 
+<img width="424" alt="Screenshot 2025-03-14 at 00 23 43" src="https://github.com/user-attachments/assets/5d2bbdd4-ea45-44b7-ad6a-5a7d57648563" />
+
 After the annual bar chart of sales amount has been plotted, it was obtained that the maximum sales occurred in 2004, while the minimum sales occurred in 2005.
 
+<img width="379" alt="Screenshot 2025-03-14 at 00 24 42" src="https://github.com/user-attachments/assets/6f35a6c7-e532-4ef8-b662-7386f2b669c1" />
+
 According to the bar chart of ‘Sales by Country’, it is shown that most of the sales occurred in the USA, while the lowest sales were recorded in Ireland.
+
+<img width="502" alt="Screenshot 2025-03-14 at 00 25 20" src="https://github.com/user-attachments/assets/c17ba8a9-98a8-4753-9f72-9a03ba9e69ff" />
 
 To investigate the distribution of sales amount in each order, a histogram was plotted. Interpreting this histogram, it shows that smaller sales amounts occur more frequently than larger sales amounts.
 
 Categorical variables related to date, status, address, and some demographic information have been eliminated in order to create a correlation matrix. After performing the correlation matrix, the correlations between the target variable, which is “Sales”, and other attributes have been examined more specifically.
 
 The correlation matrix has been created. It can be interpreted such that if the correlations between attributes are more than 0.5, these variables have a significant effect on the target variable. To clearly see this correlation, the correlation between the target variable (Sales Amount) and other attributes has been examined. It appears that the 'Quantity Ordered' and 'Price Each' attributes have the most significant effect on the sales amount. Therefore, scatter plot of these two attributes have been created to provide a better understanding.
+
+<img width="334" alt="Screenshot 2025-03-14 at 00 25 47" src="https://github.com/user-attachments/assets/2376b3e8-d209-42ba-a4c8-d6f1d64bcf40" />
+<img width="330" alt="Screenshot 2025-03-14 at 00 26 25" src="https://github.com/user-attachments/assets/39cc6126-01c4-476e-a0e8-e49137c1e419" />
+<img width="334" alt="Screenshot 2025-03-14 at 00 26 31" src="https://github.com/user-attachments/assets/9a88c195-fbb3-4ecf-b24d-7410162c741c" />
+
 
 The scatter plot shows the relationship between 'Quantity Ordered' and 'Price Each' using five different colors to represent 'Sales.' As the points get darker, the amount of sales increases. There is no linear relationship between 'Quantity Ordered' and 'Price Each.' The points are most dense where 'Price Each' ranges from 90-100 and 'Quantity Ordered' ranges from 20-40. This interception area indicates that the highest sales occur under these conditions.
 
